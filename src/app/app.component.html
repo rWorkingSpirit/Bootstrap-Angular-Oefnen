@@ -1,0 +1,55 @@
+<body>
+  <div class="container">
+    <h1>Practicing Bootstrap</h1>
+     <p class="text-warning rounded border border-dark" [style.background-color]="color">DANGER: I DO NOT KNOW WHAT I AM DOING!</p>
+      <button (click)="changeColor()" class="rounded-bottom border border-0 border-bottom border-dark text-uppercase fs-2" style="border-style:dotted;">Do..NOT..click...ME</button>
+  </div>
+
+  <br>
+
+  <div class="d-flex justify-content-center">
+    <div class="d-inline">
+      <table class="table table-info table-hover table-striped-columns table-bordered table-sm">
+        <thead>
+          <tr>
+            <th>Header</th>
+            <th>Header2</th> 
+            <th>Header 3</th>
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr class="table-primary">
+            <td>data</td>
+            <td>data2</td>
+            <td>data3</td>
+          </tr>
+          <tr>
+            <td>More data</td>
+            <td>Data More</td>
+          </tr>
+          <tr class="table-warning">
+            <td>i can do bootstrap now</td>
+            <td>however i still cannot make things pretty</td>
+            <td class="table-active" colspan="2">make individual cell active</td>
+            <td>Fancy table now</td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: center;">span 2 columns</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="d-inline">
+      <p class="text-success">Dit is text</p>
+    </div>
+
+    <div>
+      <table class="table table-danger">
+        <tr>
+          <th>hallo</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
